@@ -4,3 +4,17 @@
     padding: 0;
     margin: 0;
 }
+
+body{
+    background: black;
+}
+#nav{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    width: 1200px;
+    background: #333;
+    margin: 100px auto; 
+}
+.link{
+    color: aliceblue;
+}
