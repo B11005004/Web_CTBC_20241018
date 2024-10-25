@@ -15,6 +15,7 @@ body{
     width: 800px;
     /* background: #333; */
     margin: 35px auto;
+    margin-left: 35px;
     /* 導覽列定位為固定，預設值為畫面左上方 */
     position: fixed; 
 }
@@ -53,4 +54,69 @@ h1{
     font-weight: 200;
     padding: 20px 0;
     color: rgb(146, 129, 129);
+}
+
+/* 最新消息 */
+#news {
+    /* 顯示：格線模式 */
+    display: grid;
+    /* 格線模式欄位：重複設定(重複幾次，單位) */
+    /* 1fr 一格 */
+    grid-template-columns: repeat(3,1fr);
+    /* gg間距 */
+    grid-gap: 20px;
+    /* 版面縮小 */
+    width: 1200px;
+    margin: 0 auto;
+}
+.card{
+    padding: 20px 20px;
+    background-color: white;
+    border-radius: 10px ;
+}
+/* 選內容物 */
+/* 第一個選取 空格 第二個選取 */
+.card img{
+    width: 100%;
+    opacity: 0.5;
+    transition: 0.7s;
+    height: 300px;
+    /* object-fit: contain; */
+    object-fit: cover;
+    /* object-position: 左右 上下; */
+    object-position: 2px 0;
+    box-shadow: 0 5px 10px rgb(212, 187, 119);
+}
+.card h2{
+    text-align: center;
+    padding: 10px 0 0;
+}
+.card h4{
+    text-align: center;
+    color: brown;
+    font-size: 10px;
+    font-weight: 100;
+    /* ls 文字間距 */
+    letter-spacing: 10px;
+}
+.card p{
+    color: rgb(98, 100, 89);
+    height: 100px;
+    font-weight: 14px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.card hr{
+    height: 2px;
+    background-color: #333;
+    margin-bottom: 10px;
+    width: 0;
+    border: 0;
+    transform: 0.7s;
+}
+.card:hover hr{
+    width: 100%;
+}
+.card:hover img{
+    opacity: 1;
 }
