@@ -173,6 +173,10 @@ h1{
     letter-spacing: 5px;
     text-align: center;
 }
+#idea-info h3{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
 #idea-info a{
     background-color: #d8c284c9;
     border-radius: 50px;
