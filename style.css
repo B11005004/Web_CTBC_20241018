@@ -113,7 +113,7 @@ h1{
 .card h4{
     text-align: center;
     color: brown;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 100;
     /* ls 文字間距 */
     letter-spacing: 10px;
@@ -122,7 +122,7 @@ h1{
     color: rgb(98, 100, 89);
     height: 100px;
     font-weight: 14px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5;
 }
 .card hr{
