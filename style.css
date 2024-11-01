@@ -169,9 +169,12 @@ h1{
     border: 5px solid rgb(146, 129, 129);
 }
 #idea-info{
-    letter-spacing: 2px;
+    font-size: 20px;
+    letter-spacing: 5px;
     text-align: center;
 }
 #idea-info a{
-    color: rgb(192, 196, 158);
+    background-color: #d8c284c9;
+    border-radius: 50px;
+    color: rgb(146, 129, 129);
 }
