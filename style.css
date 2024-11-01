@@ -120,3 +120,58 @@ h1{
 .card:hover img{
     opacity: 1;
 }
+
+/* 新品資訊 */
+#product{
+    height: 500px;
+    width: 800px;
+    margin: 0 auto;
+    /* background-color: #333; */
+    /* 文字對齊：置中對齊（可以對行內所有元素對齊） */
+    text-align: center;
+    /* 相對定位 */
+    position: relative;
+}
+#info{
+    /* 絕對定位 */
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    /* background-color: #fff; */
+    width: 250px;
+}
+#info h2{
+    color: rgb(219, 155, 36);
+    margin-bottom: 20px;
+    letter-spacing: 10px;
+}
+#info h6{
+    color: rgba(98, 100, 89, 0.692);
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+#info p{
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+/* 經營理念 */
+#idea{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 30px;
+    width: 800px;
+    margin: 0 auto;
+}
+#idea-pic img{
+    width: 100%;
+    border: 5px solid rgb(146, 129, 129);
+}
+#idea-info{
+    letter-spacing: 2px;
+    text-align: center;
+}
+#idea-info a{
+    color: rgb(192, 196, 158);
+}
